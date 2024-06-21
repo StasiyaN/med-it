@@ -5741,3 +5741,15 @@ Stack trace:
 [21-Jun-2024 12:38:11 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
 [21-Jun-2024 12:38:46 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
 [21-Jun-2024 12:42:12 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:46:06 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:47:15 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:47:58 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:50:46 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[21-Jun-2024 12:51:05 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:51:23 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:52:23 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:52:46 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:52:59 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 84
+[21-Jun-2024 12:53:21 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:53:26 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:54:23 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
