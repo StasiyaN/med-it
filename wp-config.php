@@ -46,6 +46,13 @@ define('HIDE_CACHE_CLEAR',false);
 // Disable SSO mu-plugin feature
 define('HIDE_SSO_LINK',false);
 
+// Establish a database connection
+$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
+}
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -92,7 +99,7 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', true);
-define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG_DISPLAY', true);
 define('WP_DEBUG_LOG', true);
 $sapi_type = php_sapi_name();
 if ( $sapi_type == 'cli' ) {

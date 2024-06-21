@@ -15,7 +15,16 @@
 	<?php wp_head(); ?>
 </head>
 
+
 <body <?php body_class(); ?> <?php oceanwp_schema_markup( 'html' ); ?>>
+<!-- checking if jquery is loaded -->
+<script>
+if (typeof jQuery !== 'undefined') {
+    console.log('jQuery is loaded.');
+} else {
+    console.log('jQuery is not loaded.');
+}
+</script>
 
 	<?php wp_body_open(); ?>
 
@@ -49,7 +58,6 @@ $description = get_field('description', 161);
 $lieu = get_field('lieu', 161);
 $date = get_field('date', 161);
 $lien = get_field('lien_google_maps', 161);
-
 ?>
 
 <div class="popup-overlay">
@@ -79,12 +87,12 @@ $lien = get_field('lien_google_maps', 161);
 </div>
 
 <!-- Code pour fermer la popup -->
+<!-- <script>
 
-<script>
 $('.popup-close').click(function(){
 	$(this).parent().hide();
 })
-</script>
+</script> -->
 
 
 <!-- Ajout d'un bouton contact au menu -->
