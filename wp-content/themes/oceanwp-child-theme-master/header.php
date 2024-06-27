@@ -98,10 +98,10 @@ $lien = get_field('lien_google_maps', 161);
 function contact_btn() {
 
 	// Code du bouton
-	$string = '<a href="/contact" class="contact-btn">Nous contacter</a>';
+	$contact = '<a href="contact" class="contact-btn">Nous contacter</a>';
 
 	// On retourne le code
-	return $string;
+	return $contact;
 
 }
 

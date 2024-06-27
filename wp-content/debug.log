@@ -5753,3 +5753,50 @@ Stack trace:
 [21-Jun-2024 12:53:21 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
 [21-Jun-2024 12:53:26 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
 [21-Jun-2024 12:54:23 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:57:18 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 12:57:51 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 13:01:07 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 13:01:15 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 13:04:56 UTC] PHP Fatal error:  Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php:74
+Stack trace:
+#0 C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php(74): htmlspecialchars(Array)
+#1 C:\xampp\htdocs\med-it\wp-includes\template.php(810): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\med-it\wp-includes\template.php(745): load_template('C:\\xampp\\htdocs...', true, Array)
+#3 C:\xampp\htdocs\med-it\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\xampp\htdocs\med-it\wp-content\themes\oceanwp\page.php(12): get_header()
+#5 C:\xampp\htdocs\med-it\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\med-it\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\med-it\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 13:05:43 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 13:05:52 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 13:06:06 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[21-Jun-2024 13:06:15 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:47:16 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:47:20 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:47:23 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:47:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:47:26 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:47:52 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:48:00 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:48:33 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:48:46 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:49:35 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:50:16 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:51:01 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:52:01 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:53:24 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:54:11 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:54:35 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:54:55 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:54:58 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:56:10 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:57:59 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 04:58:03 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 05:23:03 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 05:23:10 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 05:23:20 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 05:23:34 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 05:26:26 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
+[27-Jun-2024 05:27:43 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\med-it\wp-content\themes\oceanwp-child-theme-master\header.php on line 74
