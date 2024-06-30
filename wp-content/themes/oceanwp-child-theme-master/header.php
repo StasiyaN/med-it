@@ -95,17 +95,17 @@ $lien = get_field('lien_google_maps', 161);
  * Shortcode pour ajouter un bouton
  */
 
-function contact_btn() {
+// function contact_btn() {
 
-	// Code du bouton
-	$contact = '<a href="contact" class="contact-btn">Nous contacter</a>';
+// 	// Code du bouton
+// 	$contact = '<a href="contact" class="contact-btn">Nous contacter</a>';
 
-	// On retourne le code
-	return $contact;
+// 	// On retourne le code
+// 	return $contact;
 
-}
+// }
 
-// On publie le shortcode
-add_shortcode('contact', 'contact_btn');
+// // On publie le shortcode
+// add_shortcode('contact', 'contact_btn');
 
 ?>
