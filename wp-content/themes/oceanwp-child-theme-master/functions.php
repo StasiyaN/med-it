@@ -31,12 +31,3 @@ function oceanwp_child_enqueue_parent_style() {
 	 wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/scripts/script.js', array('jquery'), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
-
-
-// fonction deja declarée dans header php
-// function contact_btn( $items, $args ) {
-// 	$items .= '<a href="contact" class="contact-btn">Nous contacter</a>';
-// 	return $items;
-// }
-
-// add_filter( 'wp_nav_menu_items', 'contact_btn', 10, 2 );
