@@ -79,33 +79,13 @@ $lien = get_field('lien_google_maps', 161);
 			</div>
 		</div>
 		<p class="popup-informations">Vous souhaitez plus d'informations concernant cet événement ?</p>
-		<?php
-		// On insère le formulaire de demandes de renseignements
-		echo do_shortcode('[contact-form-7 id="f65e788" title="Formulaire salon New York"]');
-		?>
+	
+		<!-- On insère le formulaire de demandes de renseignements -->
+		<?php echo do_shortcode('[contact-form-7 id="f65e788" title="Formulaire salon New York"]'); ?>
+
 	</div>
 </div>
 
 <!-- Code pour fermer la popup dans le fichier script-->
 
 
-<?php
-
-/**
- * Shortcode pour ajouter un bouton
- */
-
-// function contact_btn() {
-
-// 	// Code du bouton
-// 	$contact = '<a href="contact" class="contact-btn">Nous contacter</a>';
-
-// 	// On retourne le code
-// 	return $contact;
-
-// }
-
-// // On publie le shortcode
-// add_shortcode('contact', 'contact_btn');
-
-?>
