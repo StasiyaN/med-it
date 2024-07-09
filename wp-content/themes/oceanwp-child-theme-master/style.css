@@ -10,15 +10,6 @@ Version: 1.0
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
 
-
-.contact-btn {
-    display:inline-block;
-    background-color:white;
-    padding:6px 16px;
-    border-radius:6px;
-    margin-top: 25px;
-    }
-
 /* contact btn main menu */
     .menu-btn .text-wrap {
     color: black;
@@ -35,14 +26,10 @@ Version: 1.0
     background-color: white;
     padding:3px 10px;
     border-radius:6px;
-   
 }
-
 .footer-contact-btn a:hover {
     color: #28BABF !important;
 }
-
-
 
 .popup-overlay {
     position:fixed;
