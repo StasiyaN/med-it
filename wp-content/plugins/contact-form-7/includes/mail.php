@@ -324,7 +324,7 @@ class WPCF7_Mail {
 			}
 		);
 
-		 return wp_mail( $recipient, $subject, $body, $headers, $attachments );
+		return wp_mail( $recipient, $subject, $body, $headers, $attachments );
 	}
 
 

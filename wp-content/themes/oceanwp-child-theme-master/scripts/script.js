@@ -4,6 +4,4 @@ document.addEventListener('DOMContentLoaded', function() {
             $(this).closest('.popup-overlay').hide();       
         });
     });
-    
-    
 });
